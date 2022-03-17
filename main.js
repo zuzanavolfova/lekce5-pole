@@ -32,7 +32,7 @@ text3.textContent = pole.length;
 
 let text4 = document.querySelector('#vystup4');
 pole.forEach(function(ele, idx, arr) {
-    console.log = ((idx + 1) + " " + ele)
+    text4.textContent = ((idx + 1) + " " + ele)
 });
 
 
