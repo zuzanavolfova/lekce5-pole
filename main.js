@@ -31,9 +31,11 @@ text3.textContent = pole.length;
 // atd.
 
 let text4 = document.querySelector('#vystup4');
-pole.forEach(function(ele, idx, arr) {
-    text4.textContent = ((idx + 1) + " " + ele)
-});
+pole.forEach(vypisTextSIndexem)
+
+function vypisTextSIndexem(element, index) {
+    text4.textContent += ((index + 1) + "." + element + ' ')
+};
 
 
 // Úkol 5 - přidej na konec pole další jméno
